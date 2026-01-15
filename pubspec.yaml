@@ -1,0 +1,48 @@
+name: shared_lives
+description: "Shared Lives – Organ Donor Management (Flutter Mobile/Web) with Firebase Authentication and Firestore."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase core modules
+  firebase_core: ^3.15.2
+  firebase_auth: ^5.7.0
+  cloud_firestore: ^5.6.12
+
+  # UI helpers
+  cupertino_icons: ^1.0.8
+
+  # Open links, google maps navigation, donor registration, etc.
+  url_launcher: ^6.3.2
+
+  # In-app donor registration screen
+  webview_flutter: ^4.13.0
+
+  # Maps, GPS and hospital locator
+  flutter_map: ^6.2.1
+  geolocator: ^10.1.1
+  http: ^1.6.0
+  latlong2: ^0.9.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/app_icon.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icon/app_icon.png
